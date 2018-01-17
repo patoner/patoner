@@ -1,3 +1,19 @@
 .helloInput {
   width: 200px;
 }
+
+ul.lius {
+  list-style-type:none;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  box-shadow: 10px 10px 10px #a0a0a0;
+}
+ul.lius li:before {
+  content: "\2620" " ";
+  color: #07f;
+  margin-left: 15%;
+}
+.liBgColor {
+  background-color: #e0e0e0;
+}
